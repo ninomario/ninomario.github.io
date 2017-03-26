@@ -1,0 +1,93 @@
+body {
+	background-color: lightblue;
+	background-image: url(../images/nasa.jpg.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: helvetica, arial, sans-serif;
+
+}
+
+.main  {background: rgba(135,206,250,0.8);
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 20px;
+		border-radius: 40px;
+		box-shadow: 0 0 100px 5px white;
+}
+
+h1 { 
+	font-family: 'Fascinate Inline', cursive;
+	margin: 0;
+	text-align: center;
+	text-shadow: 0 0 10px white;
+
+}
+
+
+h2 {
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding: 10px
+	border: 10px;
+	color: white
+
+}
+
+img {
+/* image centering and editing*/
+	display: block;
+	margin: 0 auto;
+	border:5px dotted black;
+	border-radius: 50% 50% 50% 50%;
+	transition: all 1000ms;
+	border-color: white;
+	box-shadow: 0 0 100px 5px white;
+}
+
+img:hover { 
+	border-radius: 0;
+	/*transform: rotateZ(360deg); scale (2);*/
+}
+/* Editing Style of text */
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+	color: white;	
+}
+/* Change linked Text*/
+a {color: white;
+text-decoration: none
+}
+/* Hovering interactivity */
+a:hover {
+		text-decoration: underline;
+		/*transform: rotateY(180deg);*/
+		/*display: inline-block;*/
+}
+/* This stops the Jump of slideToggle */
+h3 {margin-bottom: 0; 
+
+
+}
+/* "Any adjacement element after h3", hide*/
+h3 + * {
+		display: none;
+}
+
+h3:hover { 
+		text-decoration: underline;
+		cursor: pointer;
+ }
+
+img:hover { 
+		text-decoration: underline;
+		cursor: help;
+
+}
